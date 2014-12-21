@@ -206,7 +206,7 @@ alert-message.info a {
 	-moz-transition: all 0.4s linear;
 	-o-transition: all 0.4s linear;
 	transition: all 0.4s linear;
-	padding: 20pxl
+	padding: 20px;
 }
 .client-logos a img:hover {
 	opacity: 0.5;
