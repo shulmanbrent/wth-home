@@ -527,6 +527,7 @@ nav.light .main-menu a.active, nav.dark .main-menu a.active {
 	vertical-align: middle;
 	text-align: center;
 }
+
 .overlay {
 	background: url(../images/pattern.png);
 	width: 100%;
@@ -585,7 +586,7 @@ p.quote {
 --------------------------------------------------------*/
 	
 .bg2 {
-	background-image: url(../images/parallax/parallax2.jpg);
+	background-image: url(../images/parallax/dark.jpg);
 }
 .twitter-slider {
 	width: 85%;
@@ -1745,11 +1746,13 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focu
 
 .custom {
 	border: 5px #FF6347 solid;
-	margin: 30px 5% 5% 0;
-	width: 20%;
+	margin: 30px 2% 2% 0;
+	width: 22%;
+	height: 30%;
 	float: left;
 	background-color: #FDFDFD;
 	opacity: 0.8;
+	/*line-height: 150px;*/
 }
 
 .custom:hover{
@@ -1765,8 +1768,27 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focu
 
 .txt-center{
 	color: #515A5F;
+	font-size: 6vmin;
+    position: relative;
+    top: 30%;
+  	transform: translateY(-50%);
 }
 
-.blanche {
-	color: #FDFDFD;
+.arrow {
+	height: 6em;
+	width:auto;
+}
+
+@media (max-width: 768px) {
+	.txt-center{
+		color: #515A5F;
+		font-size: 3vmin;
+	}
+	.custom{
+		clear: both;
+		height: auto;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
