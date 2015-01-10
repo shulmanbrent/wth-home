@@ -1,4 +1,10 @@
 $(document).ready(function(){
+	$('#one').click(function(){
+		$(this).toggleClass('animated fadeInUp animated fadeOutUp hidden');
+
+	$('#two').click(function(){
+		$(this).toggleClass('animated fadeInUp animated fadeOutUp hidden');
+
 	$('#one1').click(function(){
 		$('#one').toggleClass('animated fadeInUp animated fadeOutUp hidden');
 		$('#two').toggleClass('animated fadeOutUp animated fadeInUp hidden');
