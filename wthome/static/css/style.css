@@ -1500,9 +1500,9 @@ p.quote {
 }
 .copyright {
 	width: 100%;
-	margin-top: 30px;
+	margin-top: 0px;
 	padding: 40px 0;
-	background: #FFD600;
+	background: #000;
 	color: rgba(0, 0, 0, 0.7);
 	font-size: 11px;
 }
