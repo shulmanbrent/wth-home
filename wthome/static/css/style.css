@@ -1501,7 +1501,7 @@ p.quote {
 }
 .copyright {
 	width: 100%;
-	margin-top: 30px;
+	margin-top: 0px;
 	padding: 40px 0;
 	background: #FFD600;
 	color: rgba(0, 0, 0, 0.7);
