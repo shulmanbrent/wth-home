@@ -515,7 +515,7 @@ blockquote p {
 
 .team-member {
 	float: left;
-	width: 33.33%;
+	width: 25%;
 	text-align: center;
 }
 .team-member .team-thumb {
