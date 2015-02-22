@@ -1173,10 +1173,8 @@ p.quote {
 .portfolio-overlay .thumb-info p {
 	color: #ffffff;
 	width: 100%;
-	position: absolute;
 	text-align: center;
 	font-weight: bold;
-	display: inline-block;
 }
 .portfolio-overlay .thumb-info i {
 	color: #ffffff;
