@@ -1,4 +1,3 @@
-
 <!DOCTYPE HTML>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
@@ -20,7 +19,6 @@
 
   <!-- JARVIS THEME STYLESHEETS -->
      
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css" type="text/css">
 	<link rel="stylesheet" href="{{STATIC_URL}}css/skeleton.css" type="text/css">
 	<link rel="stylesheet" href="{{STATIC_URL}}css/reset.css" type="text/css">    
@@ -56,21 +54,12 @@
     
     
 	<!-- START HOME SECTION -->    
-	<div id="home" class="home-parallax" style="background-size:150%;">
+	<div id="home" class="home-parallax" style="background-size:100%;">
       <div class="home-text-wrapper">
-      
-          <div class="home-logo-text animated bounce">
-            <a href="#home">Welcome to The Weiss Tech House</a>
-          </div>
-                
-           <div id="home-slider" class="flexslider">			
+           <div id="home-slider" class="flexslider" style="margin-bottom: 400px;">			
                 <ul class="slides styled-list">
                 
-                <li class="home-slide"><p class="home-slide-content">We are <span class="highlight">Creative</span> Nerds</p></li>
-                
-                <li class="home-slide"><p class="home-slide-content">We are <span class="highlight">crazy</span> Coders</p></li>
-                
-                <li class="home-slide"><p class="home-slide-content">We <span class="highlight">love</span> Pizzas</p></li>
+                <li class="home-slide"><p class="home-slide-content">We are the <span class="highlight">Weiss Tech House</span></p></li>
                 
                 </ul>
            </div><!-- END FLEXSLIDER -->
@@ -110,7 +99,7 @@
     </nav>
     <!-- END NAVIGATION -->
 
-    <div id="event" class="fullwidth grey" >
+    <div id="event" class="page" >
 
     <div class="container"> 
            <div class="row">  
@@ -120,8 +109,7 @@
           <h1>Events</h1>
 
                   <div class="subtitle">
-                      <p>There is always something cooking at <span class="highlight">Weiss Tech House</span>. <br>
-                      Take your pick from the <span class="highlight">buffet</span>.</p>
+                      <p>Check ou some of our <span class="highlight">upcoming events</span>: <br></p>
                   </div><!-- END SUBTITLE -->
                 </div><!-- END TITLE -->                               
         <div class="Flexible-container">
@@ -136,7 +124,7 @@
 	
 	
 	<!-- START ABOUT US SECTION -->	
-	<div id="about" class="page" style="padding-bottom: 0px;">
+	<div id="about" class="fullwidth grey" style="padding-bottom: 0px;">
 	
 		<div class="container">	
            <div class="row">	
@@ -160,7 +148,7 @@
 
 
 
-<div class="fullwidth grey">
+<div class="page">
         <div class="container">  
         <div class="title">       
           <h1>What do we do?</h1>
@@ -208,7 +196,7 @@
 		</div><!-- END CONTAINER --> 
         </div>        
 
-<div class="fullwidth white">       
+<div class="fullwidth grey">       
           
     <div class="container clearfix">
       <div class="row">
@@ -375,7 +363,7 @@
 
                 
       
-    <div class="fullwidth grey" style="margin-bottom: 0px;">        
+    <div class="page" style="margin-bottom: 0px;">        
         <div class="container">  
 
             <div class="row">
@@ -435,46 +423,518 @@
 	
 	<!-- START TEAM SECTION --> 
 	<div id="team" class="page" style="padding-bottom: 0px;">
-		
-		<div class="container">	
-           <div class="row">	
-      			<div class="sixteen columns">            
-      	            <!-- START TITLE -->	            
-      				<div class="title">
-      				  <h1>Our Team</h1>
+
+  <!-- START TEAM SECTION --> 
+  <div id="team" class="page" style="padding-bottom:30px;">
+    
+    <div class="container"> 
+           <div class="row">  
+            <div class="sixteen columns">            
+                    <!-- START TITLE -->              
+              <div class="title">
+                <h1>Our Team</h1>
                         <div class="subtitle">
                             <p><span class="highlight">WTH</span> runs by combining student leadership with support from industry experts and <span class="highlight">University of Pennsylvania</span> faculty members.</p>
                         </div><!-- END SUBTITLE -->
-                      </div><!-- END TITLE -->  	                           
-      			</div><!-- END SIXTEEN COLUMNS -->  
-           </div><!-- END ROW -->         
-    </div><!-- END CONTAINER -->   
-  </div>
+                      </div><!-- END TITLE -->                               
+            </div><!-- END SIXTEEN COLUMNS -->  
+           </div><!-- END ROW -->       
+          </div><!-- END CONTAINER -->            
+            
 
-<div class="fullwidth grey" style="margin-bottom: 0px;">
+       <div class="fullwidth grey">  
+       
+        <div class="fancy-header2">       
+           <h4>Who are we anyway?</h4>
+           <h2 class="highlight">Meet the people who helped build the Weiss Tech House</h2>
+        </div>     
+                    
+          <div class="container"> 
+             <div class="row">      
+              
+              <div class="sixteen columns">               
+                  
+                   <!-- START TEAM MEMBER --> 
+                   <div class="team-member">
+                      <!-- START TEAM THUMBNAIL -->  
+                      <div class="team-thumb img-wrp">
+                      
+                        <!-- START MEMBER IMAGE --> 
+                        <img src="{{STATIC_URL}}images/team/weiss.jpg" alt="team">  
+                        <!-- END MEMBER IMAGE --> 
+                         <!-- START TEAM OVERLAY -->  
+                         <div class="team-overlay">
+                            <div class="img-overlay"></div>
+                              <!-- START OVERLAY CONTENT -->  
+                              <div class="overlay-content">                            
+                                
+                                <!-- START MEMBER ROLE --> 
+                                <h4>Founder</h4>
+                                <!-- END MEMBER ROLE --> 
+                                
+                                <!-- START PROFILE LINK --> 
+                                <p><a data-toggle="modal" href="#team-1" class="modal-popup-link view-profile">View Profile</a></p>
+                                <!-- END PROFILE LINK -->  
+                             </div><!-- END OVERLAY CONTENT -->  
+                             
+                        </div><!-- END TEAM OVERLAY -->          
+                       </div><!-- END TEAM THUMBNAIL -->  
+                                       
+                    <!-- START TEAM DESCRIPTION -->  
+                    <div class="team-desc">
+                      <h4>GEORGE WEISS</h4>
+                    </div>  
+                    <!-- END TEAM DESCRIPTION -->  
+                    
+                    
+                    
+                         
+                    <!-- START TEAM MEMBER BIO MODAL POPUP  -->
+                     <div id="team-1" class="modal fade.in animated fadeIn">
+                     
+                     <!-- START TEAM BIO -->       
+                        <div class="member-bio">
+                         <div class="container">      
+                         
+                         <!-- START MODAL POPUP CLOSE BUTTON -->                                     
+                         <a href="#" class="close" data-dismiss="modal">×</a>
+                         <!-- END MODAL POPUP CLOSE BUTTON -->
+                         
+                         
+                         <!-- START MEMBER NAME AND ROLE --> 
+                          <div class="member-role">
+                            <h1>GEORGE WEISS</h1>
+                            <h4 class="highlight">Founder</h4>
+                          </div>
+                          <!-- END MEMBER NAME AND ROLE -->  
+                          
+                          
+                          <div class="row">
+                            <div class="seven columns">
+                              <!-- START MEMBER IMAGE --> 
+                              <img src="{{STATIC_URL}}images/team/weiss.jpg" alt="team">  
+                              <!-- END MEMBER IMAGE --> 
+                              
+                              <!-- START MEMBER SHARING ICONS --> 
+                              <div class="member-details">                             
+                                   <div class="social-icons">
+                                      <div class="social-icon social-email"><a href="mailto:hallo@example.com" target="_blank" data-original-title="Email">Email</a></div>
+                                      <div class="social-icon social-behance"><a href="#" target="_blank" data-original-title="Behance">Behance</a></div>
+                                      <div class="social-icon social-facebook"><a href="#" target="_blank" data-original-title="Facebook">Facebook</a></div>
+                                      <div class="social-icon social-flickr"><a href="#" target="_blank" data-original-title="Flickr">Flickr</a></div>
+                                      <div class="social-icon social-forrst"><a href="#" target="_blank" data-original-title="Forrst">Forrst</a></div>
+                                   </div>                     
+                              </div>
+                              <!-- END MEMBER SHARING ICONS -->   
+                            </div><!-- END COLUMN --> 
+                            
+                            <!-- START MEMBER DESCRIPTION --> 
+                            <div class="eight columns member-description">
+                            <p class="lead">The Weiss Tech House was made possible by a gift from Penn Trustee and money manager, George Weiss. Weiss wanted to create a space that fosters the spirit of innovation and gives students the resources to develop their innovative ideas. Weiss is president of George Weiss Associates, Inc., a money management firm with offices in Hartford, Connecticut, and New York. He is best known throughout the country as the founder of the nationally recognized Say Yes to Education program that combines academic support and intervention with an offer to pay college tuition or vocational training costs for inner city students.</p>
+
+                            </div><!-- END MEMBER DESCRIPTION -->    
+                           
+                          </div><!-- END ROW -->  
+                         </div><!-- END CONTAINER --> 
+                      </div><!-- END TEAM BIO -->                     
+                  </div><!-- END TEAM MEMBER BIO MODAL POPUP -->  
+                 </div><!-- END TEAM MEMBER -->            
+               
+                  
+                   <!-- START TEAM MEMBER --> 
+                   <div class="team-member">
+                      <!-- START TEAM THUMBNAIL -->  
+                      <div class="team-thumb img-wrp">
+                      
+                        <!-- START MEMBER IMAGE --> 
+                        <img src="{{STATIC_URL}}images/team/yim.jpg" alt="team">  
+                        <!-- END MEMBER IMAGE --> 
+                         <!-- START TEAM OVERLAY -->  
+                         <div class="team-overlay">
+                            <div class="img-overlay"></div>
+                              <!-- START OVERLAY CONTENT -->  
+                              <div class="overlay-content">                            
+                                
+                                <!-- START MEMBER ROLE --> 
+                                <h4>Faculty Director</h4>
+                                <!-- END MEMBER ROLE --> 
+                                
+                                <!-- START PROFILE LINK --> 
+                                <p><a data-toggle="modal" href="#team-2" class="modal-popup-link view-profile">View Profile</a></p>
+                                <!-- END PROFILE LINK -->  
+                             </div><!-- END OVERLAY CONTENT -->  
+                             
+                        </div><!-- END TEAM OVERLAY -->          
+                       </div><!-- END TEAM THUMBNAIL -->  
+                                       
+                    <!-- START TEAM DESCRIPTION -->  
+                    <div class="team-desc">
+                      <h4>DR. MARK YIM</h4>
+                    </div>  
+                    <!-- END TEAM DESCRIPTION -->  
+                    
+                    
+                    
+                         
+                    <!-- START TEAM MEMBER BIO MODAL POPUP  -->
+                     <div id="team-2" class="modal hide fade.in animated fadeIn">
+                     
+                     <!-- START TEAM BIO -->       
+                        <div class="member-bio">
+                         <div class="container">      
+                         
+                         <!-- START MODAL POPUP CLOSE BUTTON -->                                     
+                         <a href="#" class="close" data-dismiss="modal">×</a>
+                         <!-- END MODAL POPUP CLOSE BUTTON -->
+                         
+                         
+                         <!-- START MEMBER NAME AND ROLE --> 
+                          <div class="member-role">
+                            <h1>DR. MARK YIM</h1>
+                            <h4 class="highlight">Faculty Director</h4>
+                          </div>
+                          <!-- END MEMBER NAME AND ROLE -->  
+                          
+                          
+                          <div class="row">
+                            <div class="seven columns">
+                              <!-- START MEMBER IMAGE --> 
+                              <img src="{{STATIC_URL}}images/team/yim.jpg" alt="team">  
+                              <!-- END MEMBER IMAGE --> 
+                              
+                              <!-- START MEMBER SHARING ICONS --> 
+                              <div class="member-details">                             
+                                   <div class="social-icons">
+                                      <div class="social-icon social-email"><a href="mailto:hallo@example.com" target="_blank" data-original-title="Email">Email</a></div>
+                                      <div class="social-icon social-behance"><a href="#" target="_blank" data-original-title="Behance">Behance</a></div>
+                                      <div class="social-icon social-facebook"><a href="#" target="_blank" data-original-title="Facebook">Facebook</a></div>
+                                      <div class="social-icon social-flickr"><a href="#" target="_blank" data-original-title="Flickr">Flickr</a></div>
+                                      <div class="social-icon social-forrst"><a href="#" target="_blank" data-original-title="Forrst">Forrst</a></div>
+                                   </div>                     
+                              </div>
+                              <!-- END MEMBER SHARING ICONS -->   
+                            </div><!-- END COLUMN --> 
+                            
+                            <!-- START MEMBER DESCRIPTION --> 
+                            <div class="eight columns member-description">
+                            <p class="lead">Dr. Yim is the Gabel Family Term Junior Professor and Undergraduate Curriculum Chair in the School of Engineering and Applied Sciences. A renowned robotics and innovation expert, Dr. Yim is popular among our students for his work developing the Rumble Pack technology in the Playstation2. Dr. Yim was Associate Faculty Director for the Weiss Tech House from 2005-2008. In 2008, he became the Faculty Director. <a href="http://www.me.upenn.edu/faculty/yim.html">Dr. Yim’s Website</a></p>
+                          
+                           </div><!-- END MEMBER DESCRIPTION -->   
+                           
+                          </div><!-- END ROW -->  
+                         </div><!-- END CONTAINER --> 
+                      </div><!-- END TEAM BIO -->                     
+                  </div><!-- END TEAM MEMBER BIO MODAL POPUP -->  
+                 </div><!-- END TEAM MEMBER -->           
+                 
+                  
+                   <!-- START TEAM MEMBER --> 
+                   <div class="team-member">
+                      <!-- START TEAM THUMBNAIL -->  
+                      <div class="team-thumb img-wrp">
+                      
+                        <!-- START MEMBER IMAGE --> 
+                        <img src="{{STATIC_URL}}images/team/hsu.jpg" alt="team">  
+                        <!-- END MEMBER IMAGE --> 
+                         <!-- START TEAM OVERLAY -->  
+                         <div class="team-overlay">
+                            <div class="img-overlay"></div>
+                              <!-- START OVERLAY CONTENT -->  
+                              <div class="overlay-content">                            
+                                
+                                <!-- START MEMBER ROLE --> 
+                                <h4>Associate Faculty Director</h4>
+                                <!-- END MEMBER ROLE --> 
+                                
+                                <!-- START PROFILE LINK --> 
+                                <p><a data-toggle="modal" href="#team-3" class="modal-popup-link view-profile">View Profile</a></p>
+                                <!-- END PROFILE LINK -->  
+                             </div><!-- END OVERLAY CONTENT -->  
+                             
+                        </div><!-- END TEAM OVERLAY -->          
+                       </div><!-- END TEAM THUMBNAIL -->  
+                                       
+                    <!-- START TEAM DESCRIPTION -->  
+                    <div class="team-desc">
+                      <h4>DR. DAVID HSU</h4>
+                    </div>  
+                    <!-- END TEAM DESCRIPTION -->  
+                    
+                    
+                    
+                         
+                    <!-- START TEAM MEMBER BIO MODAL POPUP  -->
+                     <div id="team-3" class="modal hide fade.in animated fadeIn">
+                     
+                     <!-- START TEAM BIO -->       
+                        <div class="member-bio">
+                         <div class="container">      
+                         
+                         <!-- START MODAL POPUP CLOSE BUTTON -->                                     
+                         <a href="#" class="close" data-dismiss="modal">×</a>
+                         <!-- END MODAL POPUP CLOSE BUTTON -->
+                         
+                         
+                         <!-- START MEMBER NAME AND ROLE --> 
+                          <div class="member-role">
+                            <h1>DR. DAVID HSU</h1>
+                            <h4 class="highlight">Associate Faculty Directory</h4>
+                          </div>
+                          <!-- END MEMBER NAME AND ROLE -->  
+                          
+                          
+                          <div class="row">
+                            <div class="seven columns">
+                              <!-- START MEMBER IMAGE --> 
+                              <img src="{{STATIC_URL}}images/team/hsu.jpg" alt="team">  
+                              <!-- END MEMBER IMAGE --> 
+                              
+                              <!-- START MEMBER SHARING ICONS --> 
+                              <div class="member-details">                             
+                                   <div class="social-icons">
+                                      <div class="social-icon social-email"><a href="mailto:hallo@example.com" target="_blank" data-original-title="Email">Email</a></div>
+                                      <div class="social-icon social-behance"><a href="#" target="_blank" data-original-title="Behance">Behance</a></div>
+                                      <div class="social-icon social-facebook"><a href="#" target="_blank" data-original-title="Facebook">Facebook</a></div>
+                                      <div class="social-icon social-flickr"><a href="#" target="_blank" data-original-title="Flickr">Flickr</a></div>
+                                      <div class="social-icon social-forrst"><a href="#" target="_blank" data-original-title="Forrst">Forrst</a></div>
+                                   </div>                     
+                              </div>
+                              <!-- END MEMBER SHARING ICONS -->   
+                            </div><!-- END COLUMN --> 
+                            
+                            <!-- START MEMBER DESCRIPTION --> 
+                            <div class="eight columns member-description">
+                            <p class="lead">Dr. Hsu is currently an Associate Professor of Management at the Wharton School, teaching two MBA electives, Entrepreneurship and Technology Strategy. Dr. Hsu’s areas of interest are in entrepreneurial innovation and management. Within that domain, he has investigated topics such as intellectual property management, start-up innovation, technology commercialization strategy, and venture capital. In 2008, he became the Associate Faculty Director. <a href="http://www-management.wharton.upenn.edu/hsu/">Dr. Hsu’s Website</a></p>
+                           
+                           </div><!-- END COLUMN --> 
+                           
+                          </div><!-- END ROW -->  
+                         </div><!-- END CONTAINER --> 
+                      </div><!-- END TEAM BIO -->                     
+                  </div><!-- END TEAM MEMBER BIO MODAL POPUP -->  
+                 </div><!-- END TEAM MEMBER -->          
+
+
+                  <!-- START TEAM MEMBER --> 
+                   <div class="team-member">
+                      <!-- START TEAM THUMBNAIL -->  
+                      <div class="team-thumb img-wrp">
+                      
+                        <!-- START MEMBER IMAGE --> 
+                        <img src="{{STATIC_URL}}images/team/stamer.jpg" alt="team">  
+                        <!-- END MEMBER IMAGE --> 
+                         <!-- START TEAM OVERLAY -->  
+                         <div class="team-overlay">
+                            <div class="img-overlay"></div>
+                              <!-- START OVERLAY CONTENT -->  
+                              <div class="overlay-content">                            
+                                
+                                <!-- START MEMBER ROLE --> 
+                                <h4>Director</h4>
+                                <!-- END MEMBER ROLE --> 
+                                
+                                <!-- START PROFILE LINK --> 
+                                <p><a data-toggle="modal" href="#team-4" class="modal-popup-link view-profile">View Profile</a></p>
+                                <!-- END PROFILE LINK -->  
+                             </div><!-- END OVERLAY CONTENT -->  
+                             
+                        </div><!-- END TEAM OVERLAY -->          
+                       </div><!-- END TEAM THUMBNAIL -->  
+                                       
+                    <!-- START TEAM DESCRIPTION -->  
+                    <div class="team-desc">
+                      <h4>ANNE STAMER</h4>
+                    </div>  
+                    <!-- END TEAM DESCRIPTION -->  
+                    
+                    
+                    
+                         
+                    <!-- START TEAM MEMBER BIO MODAL POPUP  -->
+                     <div id="team-4" class="modal hide fade.in animated fadeIn">
+                     
+                     <!-- START TEAM BIO -->       
+                        <div class="member-bio">
+                         <div class="container">      
+                         
+                         <!-- START MODAL POPUP CLOSE BUTTON -->                                     
+                         <a href="#" class="close" data-dismiss="modal">×</a>
+                         <!-- END MODAL POPUP CLOSE BUTTON -->
+                         
+                         
+                         <!-- START MEMBER NAME AND ROLE --> 
+                          <div class="member-role">
+                            <h1>ANNE STAMER</h1>
+                            <h4 class="highlight">Director</h4>
+                          </div>
+                          <!-- END MEMBER NAME AND ROLE -->  
+                          
+                          
+                          <div class="row">
+                            <div class="seven columns">
+                              <!-- START MEMBER IMAGE --> 
+                              <img src="images/team/team3.png" alt="team">  
+                              <!-- END MEMBER IMAGE --> 
+                              
+                              <!-- START MEMBER SHARING ICONS --> 
+                              <div class="member-details">                             
+                                   <div class="social-icons">
+                                      <div class="social-icon social-email"><a href="mailto:hallo@example.com" target="_blank" data-original-title="Email">Email</a></div>
+                                      <div class="social-icon social-behance"><a href="#" target="_blank" data-original-title="Behance">Behance</a></div>
+                                      <div class="social-icon social-facebook"><a href="#" target="_blank" data-original-title="Facebook">Facebook</a></div>
+                                      <div class="social-icon social-flickr"><a href="#" target="_blank" data-original-title="Flickr">Flickr</a></div>
+                                      <div class="social-icon social-forrst"><a href="#" target="_blank" data-original-title="Forrst">Forrst</a></div>
+                                   </div>                     
+                              </div>
+                              <!-- END MEMBER SHARING ICONS -->   
+                            </div><!-- END COLUMN --> 
+                            
+                            <!-- START MEMBER DESCRIPTION --> 
+                            <div class="eight columns member-description">
+                            <p class="lead">Ms. Stamer manages the marketing, public relations, fundraising and day-to-day activities of the Weiss Tech House and assists student volunteers in achieving the organization’s goals. Prior to joining the WTH, she was the Associate Director of the Wharton Business Plan Competition (WBPC) at the Wharton Entrepreneurial Programs.</p>
+                           
+                           </div><!-- END COLUMN --> 
+                           
+                          </div><!-- END ROW -->  
+                         </div><!-- END CONTAINER --> 
+                      </div><!-- END TEAM BIO -->                     
+                  </div><!-- END TEAM MEMBER BIO MODAL POPUP -->  
+                 </div><!-- END TEAM MEMBER -->          
+                  
+           </div><!-- END SIXTEEN COULMNS --> 
+          </div> <!-- END ROW -->     
+         </div><!-- END CONTAINER --> 
+       </div>
+
+<div class="page" style="margin-bottom: 0px; padding-bottom: 0px">
     <div class="container">  
             <div class="row">
 			           <div class="sixteen columns">
                     <h2 style="text-align: center;">Weiss Tech House has supported the creation of numerous successful enterprises</h2>
                   </div>
-            
-                <div class="client-logos" style="background: tomato">
-                  <a href="http://ubeam.com/" title="Featured Clients" class="clients"><img src="{{STATIC_URL}}images/companies/uBeam.png" alt="Clients"></a>
-                  <a href="http://www.biobots.io/" title="Featured Clients" class="clients"><img src="{{STATIC_URL}}images/companies/BioBots.png" alt="Clients"></a>
-                  <a href="http://feversmart.com/" title="Featured Clients" class="clients"><img src="{{STATIC_URL}}images/companies/FeverSmart.png" alt="Clients"></a>
-                  <a href="http://www.betterthansiri.com/" title="Featured Clients" class="clients"><img src="{{STATIC_URL}}images/companies/GoogolPlex.png" alt="Clients"></a>
-                  <a href="http://www.govpredict.com/#/login" title="Featured Clients" class="clients"><img src="{{STATIC_URL}}images/companies/GovPredict.png" alt="Clients"></a>
-                  <a href="http://identifiedtech.com/" title="Featured Clients" class="clients"><img src="{{STATIC_URL}}images/companies/IdentifiedTechnologies.png" alt="Clients"></a>       
-                </div><!-- END CLIENTS LIST --> 
-                
-            <h3 style="text-align: center">We’re thrilled by the success of both alums and current students!</h3>                
-			 </div><!-- END SIXTEEN COLUMNS --> 
-	       </div>                
+			     </div><!-- END SIXTEEN COLUMNS --> 
+	   </div>                
      
+    </div>
+    <div id="portfolio-wrap" style="position: relative; overflow: hidden; height: 576px;" class="isotope">
+    
+    <!-- START PORTFOLIO ITEM -->                   
+      <div class="portfolio-item one-third column design videography photography web branding isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px);">
+             <div class="portfolio">
+                <a href="http://ubeam.com/" class="portfolio-image">
+                  <img src="{{STATIC_URL}}images/companies/uBeam.png" alt="Portfolio 1"><!-- END PORTFOLIO IMAGE -->   
+                  
+                  <div class="portfolio-overlay">                
+                      <div class="thumb-info">                
+                        <h3>uBeam</h3><!-- OVERLAY TITLE -->  
+                        <p class="portfolio-tags">Something about uBeam</p><!-- END PORTFOLIO TAGS -->  
+                      </div>                
+                  </div><!-- END PORTFOLIO OVERLAY --> 
+                
+                </a>
+             </div>
+      </div>
+      <!-- END PORTFOLIO ITEM -->    
+      
+                     
+      <!-- START PORTFOLIO ITEM -->                   
+      <div class="portfolio-item one-third column branding videography web isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(270px, 0px, 0px);">
+             <div class="portfolio">
+                <a href="http://www.biobots.io/" class="portfolio-image">
+                  <img src="{{STATIC_URL}}images/companies/BioBots.png" alt="Portfolio 2"><!-- END PORTFOLIO IMAGE -->   
+                  
+                  <div class="portfolio-overlay">                
+                      <div class="thumb-info">                
+                        <h3>BioBots</h3><!-- OVERLAY TITLE -->  
+                        <p class="portfolio-tags">Something about BioBots</p><!-- END PORTFOLIO TAGS -->  
+                      </div>                
+                  </div><!-- END PORTFOLIO OVERLAY --> 
+                
+                </a>
+             </div>
+      </div>
+      <!-- END PORTFOLIO ITEM -->  
+                 
+      <!-- START PORTFOLIO ITEM -->                   
+      <div class="portfolio-item one-third column branding photography web design isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(540px, 0px, 0px);">
+             <div class="portfolio">
+                <a href="http://feversmart.com/" class="portfolio-image">
+                  <img src="{{STATIC_URL}}images/companies/FeverSmart.png" alt="Portfolio 3"><!-- END PORTFOLIO IMAGE -->   
+                  
+                  <div class="portfolio-overlay">                
+                      <div class="thumb-info">                
+                        <h3>FeverSmart</h3><!-- OVERLAY TITLE -->  
+                        <p class="portfolio-tags">Something about FeverSmart</p><!-- END PORTFOLIO TAGS -->  
+                      </div>                
+                  </div><!-- END PORTFOLIO OVERLAY --> 
+                
+                </a>
+             </div>
+      </div>
+      <!-- END PORTFOLIO ITEM -->
+                  
+      <!-- START PORTFOLIO ITEM -->                   
+      <div class="portfolio-item one-third column branding photography web design isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(810px, 0px, 0px);">
+             <div class="portfolio">
+                <a href="http://www.betterthansiri.com/" class="portfolio-image">
+                  <img src="{{STATIC_URL}}images/companies/GoogolPlex.png" alt="Portfolio 4"><!-- END PORTFOLIO IMAGE -->   
+                  
+                  <div class="portfolio-overlay">                
+                      <div class="thumb-info">                
+                        <h3>GoogolPlex</h3><!-- OVERLAY TITLE -->  
+                        <p class="portfolio-tags">Something about GoogolPlex</p><!-- END PORTFOLIO TAGS -->  
+                      </div>                
+                  </div><!-- END PORTFOLIO OVERLAY --> 
+                
+                </a>
+             </div>
+      </div>
+      <!-- END PORTFOLIO ITEM -->
+                
+                
+      <!-- START PORTFOLIO ITEM -->                   
+      <div class="portfolio-item one-third column branding videography isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(1080px, 0px, 0px);">
+             <div class="portfolio">
+                <a href="http://www.govpredict.com/" class="portfolio-image">
+                  <img src="{{STATIC_URL}}images/companies/GovPredict.png" alt="Portfolio 5"><!-- END PORTFOLIO IMAGE -->   
+                  
+                  <div class="portfolio-overlay">                
+                      <div class="thumb-info">                
+                        <h3>Gov Predict</h3><!-- OVERLAY TITLE -->  
+                        <p class="portfolio-tags">Something about Gov Predict</p><!-- END PORTFOLIO TAGS -->  
+                      </div>                
+                  </div><!-- END PORTFOLIO OVERLAY --> 
+                
+                </a>
+             </div>
+      </div>
+      <!-- END PORTFOLIO ITEM -->
+                
+                
+      <!-- START PORTFOLIO ITEM -->                   
+      <div class="portfolio-item one-third column videography web isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 192px, 0px);">
+             <div class="portfolio">
+                <a href="http://identifiedtech.com/" class="portfolio-image">
+                  <img src="{{STATIC_URL}}images/companies/IdentifiedTechnologies.png" alt="Portfolio 6"><!-- END PORTFOLIO IMAGE -->   
+                  
+                  <div class="portfolio-overlay">                
+                      <div class="thumb-info">                
+                        <h3>Identified Technologies</h3><!-- OVERLAY TITLE -->  
+                        <p class="portfolio-tags">Something about Identified Technologies</p><!-- END PORTFOLIO TAGS -->   
+                      </div>                
+                  </div><!-- END PORTFOLIO OVERLAY --> 
+                
+                </a>
+             </div>
+      </div>
+      <!-- END PORTFOLIO ITEM -->                     
+   </div>
+   <h3 style="text-align: center; padding-top: 30px">We’re thrilled by the success of both alums and current students!</h3>                
 
     </div>
     <!-- END TEAM SECTION --> 
 	
+
 	
 	
 	<!-- START PARALLAX SECTION -->
@@ -628,6 +1088,7 @@
      </div>
     <!-- END PARALLAX SECTION -->
 
+
 	
   <!-- START PARALLAX SECTION -->
   <div id="parallax4" class="parallax">
@@ -650,76 +1111,11 @@
             </div><!-- END CONTAINER -->
      </div>
     <!-- END PARALLAX SECTION --> 
-
-	<!-- START CONTACT SECTION -->
-	<div id="contact" class="page">
-    
-		<div class="container">	
-           <div class="row">	
-			<div class="sixteen columns">            
-	            <!-- START TITLE -->	            
-				<div class="title">
-				  <h1>Contact Us</h1>
-
-                  <div class="subtitle">
-                      <p>We'd really love to <span class="highlight">hear from you</span> so why not drop us an email and <span class="highlight">we'll get back</span> to you as soon as we can.</p>
-                  </div><!-- END SUBTITLE -->
-                </div><!-- END TITLE -->  	                           
-			</div><!-- END SIXTEEN COLUMNS -->  
-           </div><!-- END ROW -->         
-          </div><!-- END CONTAINER -->         
-		<div class="container clearfix">
-			<div class="sixteen columns">
-				
-	   <!-- START CONTACT BOX -->
-      <div class="contact-box">
-        <!-- START CONTACT FORM -->
-         <div id="contact-form">			
-            <form action="#" method="post">
-           
-                <div id="contact-input">
-                 <!--[if IE]>
-                    <label for="name">Name</label>
-                <![endif]-->
-                  <input type="text" name="contact[name]" id="name" placeholder="Name (required)" >
-                   <!--[if IE]>
-                   		<label for="email">Email</label>
-                    <![endif]-->
-                  <input type="text" name="contact[email]" id="email" placeholder="Email (required)">
-                   <!--[if IE]>
-                   		<label for="subject">Subject</label>
-                    <![endif]-->
-                  <input type="text" name="contact[subject]" id="subject" placeholder="Subject" >
-                </div>
-                <div id="contact-textarea">
-                 <!--[if IE]>
-                   		<label for="message">Your Message Here</label>
-                    <![endif]-->
-                  <textarea name="contact[message]" id="message" cols="39" rows="4" placeholder="Your Message"></textarea>
-                </div>
-                <div id="contact-submit">
-                  <div>
-                    <input name="submit" type="submit" id="submit" tabindex="5" value="Post Comment" class="comment-submit small button">
-                  </div>
-                </div>
-              </form> 
-         <div class="clear"></div>
-          </div>
-           <div class="result"></div>  
-		<!-- END CONTACT FORM -->
-	
-        	
-		</div>
-
-        <!-- END CONTACT BOX -->
-		</div> <!-- END SIXTEEN COLUMNS -->        
-	</div><!-- END CONTAINER -->
- 
-      <!-- START COPYRIGHT SECTION -->   	
-       <div class="copyright">
+      <!-- START COPYRIGHT SECTION -->    
+       <div id="contact" class="copyright">
      <div class="container clearfix">
         <div class="sixteen columns">   
-        <div class="copyright-logo"><a href="#"><img src="{{STATIC_URL}}images/WTH_logo.png" width="80" title="logo" alt="logo"/></a></div>   
+        <div class="copyright-logo"><a href="#"><img src="{{STATIC_URL}}images/WTH_logo.png" width="80" title="logo" alt="logo"></a></div>   
            <div class="social-icons">
               <div class="social-icon social-email"><a href="mailto:hallo@example.com" target="_blank" data-original-title="Email">Email</a></div>
               <div class="social-icon social-behance"><a href="#" target="_blank" data-original-title="Behance">Behance</a></div>
@@ -729,77 +1125,14 @@
               <div class="social-icon social-flickr"><a href="#" target="_blank" data-original-title="Flickr">Flickr</a></div>
               <div class="social-icon social-forrst"><a href="#" target="_blank" data-original-title="Forrst">Forrst</a></div>
            </div>
-			<p>&copy; 2014 All Rights Reserved. Made by the Platform Team at the Weiss Tech House</p>
+      <p>&copy; 2014 All Rights Reserved. Made by the Platform Team at the Weiss Tech House</p>
             
          </div> <!-- END SIXTEEN COLUMNS -->        
-	  </div><!-- END CONTAINER -->
+    </div><!-- END CONTAINER -->
      </div>
-     <!-- END COPYRIGHT SECTION -->	 
-      
-	</div>
-    <!-- END CONTACT SECTION -->		
-	
+     <!-- END COPYRIGHT SECTION -->  
 	
    </div><!-- END PAGE WRAP -->
-   
-
-      <!-- BEGIN THEME PANEL -->
-	<div id="themes_panel">
-		<div id="themes_menu">
-        <h4 style="text-align:center;">Style Switcher</h4>
-        
-			<div class="segment">
-            <h5>Layout Type</h5>
-				<ul class="theme cookie_layout_style">
-                    <li><a href="#" title="parallax" class="panel_btn">Parallax Version</a></li>                   
-                    <li><a href="#" title="color-block" class="panel_btn">Colored Version</a></li>                
-                  </ul>
-			</div>         
-			<div class="segment">
-            <h5>Layout Color</h5>
-				<ul class="theme cookie_layout_color">                            
-					<li><a href="#" title="light" style="background: white; width: 30px; height: 15px;"></a></li>
-                    <li><a href="#" title="dark" style="background: black; width: 30px; height: 15px;"></a></li>
-                  </ul>
-			</div>   
-
-			<div class="segment">
-            <h5>Menu Style</h5>
-				<ul class="theme cookie_menu_style">                            
-                    <li><a href="#" title="large" class="panel_btn">Large Menu</a></li>                   
-                    <li><a href="#" title="small" class="panel_btn">Small Menu</a></li> 
-                  </ul>
-			</div> 
-            
-			<div class="segment">
-            <h5>Menu Color</h5>
-				<ul class="theme cookie_menu_color">                            
-					<li><a href="#" title="light" style="background: white; width: 30px; height: 15px;"></a></li>
-                    <li><a href="#" title="dark" style="background: black; width: 30px; height: 15px;"></a></li>
-                  </ul>
-			</div>                  
-
-			<div class="segment">
-        <h5>Color Skins</h5>
-				<ul class="theme cookie_colors">           
-                    <li><a href="#" title="blue" style="background: steelblue; width: 30px; height: 15px;"></a></li> 
-                    <li><a href="#" title="mediumaquamarine" style="background: mediumaquamarine; width: 30px; height: 15px;"></a></li>  
-                    <li><a href="#" title="tomato" style="background: tomato; width: 30px; height: 15px;"></a></li>  
-                    <li><a href="#" title="yellow" style="background: #FFD600; width: 30px; height: 15px;"></a></li>  
-                    <li><a href="#" title="green" style="background: #a0ce4e; width: 30px; height: 15px;"></a></li>  
-                    <li><a href="#" title="darksalmon" style="background: darksalmon; width: 30px; height: 15px;"></a></li>                                  
-                  </ul>
-			</div>   
-            
-      
-                              
-			<div class="segment noborder">
-				<a class="reset" href="#">Click to Reset</a>
-			</div>
-		</div>
-		<div id="toggle_button"><a href="#"></a></div>
-	</div>
-<!-- END THEME PANEL -->       
 
 	<!-- JARVIS THEME SCRIPTS -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>  
