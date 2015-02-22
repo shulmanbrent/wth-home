@@ -1176,6 +1176,7 @@ p.quote {
 	position: absolute;
 	text-align: center;
 	font-weight: bold;
+	display: inline-block;
 }
 .portfolio-overlay .thumb-info i {
 	color: #ffffff;
