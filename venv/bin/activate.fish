@@ -32,7 +32,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/ubuntu/wthome/venv"
+set -gx VIRTUAL_ENV "/Users/snowboarderwv/Desktop/Projects/wth-home/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
