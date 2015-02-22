@@ -1161,7 +1161,6 @@ p.quote {
 	font-size: 30px;
 }
 .portfolio-overlay .thumb-info p {
-	top: 50%;
 	font-size: 13px;
 }
 .portfolio-overlay .thumb-info h3 {
@@ -1172,7 +1171,6 @@ p.quote {
 }
 .portfolio-overlay .thumb-info p {
 	color: #ffffff;
-	width: 100%;
 	text-align: center;
 	font-weight: bold;
 }
@@ -1182,6 +1180,11 @@ p.quote {
 	position: absolute;
 	text-align: center;
 	display: block;
+}
+.portfolio-text {
+	position: absolute;
+	top: 50%;
+	width: 100%;
 }
 /**** Isotope CSS3 transitions ****/
 
