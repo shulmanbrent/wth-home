@@ -1583,19 +1583,16 @@ p.quote {
 	padding-left: 2%;
 }
 #contact-submit input[type="submit"] {
-	padding: 20px 24px 20px 24px;
+	padding: 0px;
 	border: 0 none;
 	color: #ffffff;
 	display: block;
 	width: 50%;
 	cursor: pointer;
-	text-indent: -9999px;
-	background-image: url(../images/mail.png);
-	background-position: center center;
-	background-repeat: no-repeat;
 	float: right;
 	height:57px;
 	line-height:57px;
+	font-size: x-large;
 }
 input[type="text"], input[type="password"], input[type="email"], textarea, select {
 	background: #fff;

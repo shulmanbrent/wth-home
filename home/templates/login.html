@@ -95,7 +95,7 @@
 			<div class="sixteen columns">            
 	            <!-- START TITLE -->	            
 				<div class="title">
-				  <h1>About Us</h1>
+				  <h1>Welcome to the WTH</h1>
             <div id="contact-form">
               <form action="#" method="post">
                   {% csrf_token %}     
@@ -107,15 +107,18 @@
                      <!--[if IE]>
                         <label for="email">Email</label>
                       <![endif]-->
-                    <input type="text" name="contact[email]" id="email" placeholder="Password" style="display: inline-block; float:none;">
+                    <input type="password" name="contact[email]" id="email" placeholder="Password" style="display: inline-block; float:none;">
                   </div>
                   <div id="contact-submit" style= "display: inline-block; float: none; text-align: center; overflow: hidden; margin-bottom: 13px; width: 90%;">
                     <div>
-                      <input name="submit" type="submit" id="submit" tabindex="5" value="Post Comment" class="comment-submit small button" style="float: none; display: inline-block;">
+                      <input name="submit" type="submit" id="submit" tabindex="5" value="LOGIN" class="comment-submit small button" style="float: none; display: inline-block;">
                     </div>
                   </div>
                 </form> 
                 <div class="clear"></div>
+            </div>
+            <div>
+              <h3>Dont have an account yet? <a href"/signup.html">Sign-up</a></h3>
             </div>
         </div><!-- END TITLE -->  	                           
 			</div><!-- END SIXTEEN COLUMNS -->  
