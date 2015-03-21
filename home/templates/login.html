@@ -96,9 +96,9 @@
 	            <!-- START TITLE -->	            
 				<div class="title">
 				  <h1>About Us</h1>
-            <div id="contact-form">     
+            <div id="contact-form">
               <form action="#" method="post">
-             
+                  {% csrf_token %}     
                   <div id="contact-input" style="float: none; display: inline-block; text-align: center;">
                    <!--[if IE]>
                       <label for="name">Name</label>
