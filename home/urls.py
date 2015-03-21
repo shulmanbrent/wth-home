@@ -1,6 +1,8 @@
 from django.conf.urls import patterns, url
 from django.views.generic import TemplateView
+from home import views
 
 urlpatterns = patterns('',
-  	url('^$', TemplateView.as_view(template_name='index.html')),
+	url(r'^login/', views.login, name="login"),
+  	url(r'', TemplateView.as_view(template_name='index.html'))
 )
