@@ -1514,6 +1514,10 @@ p.quote {
 .copyright a {
 	color: inherit;
 }
+
+.copyright-logo {
+	text-align: center;
+}
 .copyright-logo a {
 	display: inline-block;
 	text-align: center;
