@@ -24,3 +24,14 @@ def login(request):
 		# and check valeus against database
 		# Fuck ya it is working
 		return HttpResponseRedirect('/')
+
+
+def signup(request):
+	context = RequestContext(request)
+
+	result_list = []
+
+	if request.method == 'GET':
+		return render_to_response('signup.html', {'result_list': result_list}, context)
+	elif request.method == 'POST':
+		return HttpResponseRedirect('/')
