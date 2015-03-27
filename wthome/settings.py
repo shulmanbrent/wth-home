@@ -60,11 +60,11 @@ WSGI_APPLICATION = 'wthome.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': "LOCAL_TEAL",
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': 'localhost',
-        'PORT': '',
+        'NAME': "db3kfarohu8li2",
+        'USER': 'esnpvxtuxrdhht',
+        'PASSWORD': 'qfWzDZoPEWz4A-Z3qRUd6rKXOi',
+        'HOST': 'ec2-54-235-146-58.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
