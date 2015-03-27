@@ -22,7 +22,22 @@ def login(request):
 	elif request.method == 'POST':
 		# More to do here with Login Sequence
 		# and check valeus against database
-		# Fuck ya it is working
+
+		# User signup form fields
+		user_name = request.POST['user_name']
+		user_password = request.POST['user_password']
+		first_name = request.POST['first_name']
+		last_name = request.POST['last_name']
+		address1 = request.POST['address1']
+		address2 = request.POST['address2']
+		city = request.POST['city']
+		state = request.POST['state']
+		zip_code = request.POST['zip_code']
+		country = request.POST['country']
+		school = request.POST['school']
+		major = request.POST['major']
+		grad_year = request.POST['grad_year']
+
 		return HttpResponseRedirect('/')
 
 
@@ -34,4 +49,9 @@ def signup(request):
 	if request.method == 'GET':
 		return render_to_response('signup.html', {'result_list': result_list}, context)
 	elif request.method == 'POST':
+
+		email = request.POST['email']
+		password = request.POST['password']
+		confirm_password = request.POST['confirm_password']
+
 		return HttpResponseRedirect('/')
