@@ -4,6 +4,7 @@ from django.http import HttpResponse, HttpResponseRedirect
 from django.template import RequestContext
 from django.shortcuts import render_to_response
 from django.db import models
+from home.models import Users
 
 def login(request):
  # Request the context of the request.
@@ -56,4 +57,19 @@ def signup(request):
 		major = request.POST['major']
 		grad_year = request.POST['grad_year']
 
+		user = Users(id = Users.objects.latest('id').id + 1, 
+				email = email,
+				fname = first_name,
+				lname = last_name,
+				address = address1,
+				address2 = address2,
+				city = city,
+				state = state,
+				zip = zip_code,
+				country = country,
+				admin_level = 0,
+				school = school,
+				major = major,
+				graduation_year = grad_year)
+		user.save()
 		return HttpResponseRedirect('/')
