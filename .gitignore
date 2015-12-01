@@ -53,5 +53,6 @@ docs/_build/
 # PyBuilder
 target/
 
-# Other
+# DS Stores
 .DS_Store
+wthome/static/images/.DS_Store
