@@ -1,0 +1,3 @@
+This folder will contain the copy of index.html that is is compatibly with the file structure on CETS.
+
+Right now, that means that we just need to change {{STATIC_URL}} -> home//
