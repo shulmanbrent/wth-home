@@ -9,6 +9,3 @@ urlpatterns = patterns('',
     url(r'', include('home.urls')),
     # url(r'^login/', include('home.urls'))
 )
-
-
-
