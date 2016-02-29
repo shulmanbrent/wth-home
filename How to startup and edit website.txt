@@ -1,0 +1,38 @@
+Some tips to get started in case you forgot:
+
+1. Startup the boot2docker Quickstart terminal (you should seem some stuff kinda processing before it lets you type)
+
+-----Make sure you keep track of IP address it spits out (should something like 192.38.123.1243)____
+
+2. Move into the directory that contains the Weiss Tech House website code (using "cd" to change directory and "ls" to see what the contents of your current directory are)
+
+3. Run the following command to make sure you have the latest updated files "git pull upstream master"
+
+4. Run the following command to boot up the Docker environment/container "./2-run.sh"
+
+5. Your terminal should not say "root@12345678: " or something like that
+
+6. Type "cd /data" to move in to the folder containing all the website code
+
+7. Type and run "foreman start" to start the local webserver - this essentially runs all the backend code just like the CETS server would
+
+8. Go to your browser and go the follwing address "IP_ADDRESS_DOCKER_SAID:5000". Hopefully you should see the website load up!
+
+9. Now you can go to "home/templates/index.html" page and edit the contents of the site! Once you make a change to the file, just go back to the browser and refresh the page to see the changes you made
+
+Some things just to note:
+--Changing things on your local version will not affect the actually live website. For now Alec and I have to do that manually.....(but we are working on fixing it!)
+--Dont mess with much else other than the index.html file. Otherwise all hell might break loose and it will be hard to debug remotely.
+
+Once you are done making changes and like the way that it looks:
+1. Stop the webserver (press CTRL+C)
+2. Exit the container (just type "exit" and hit enter -- might take a second)
+-- You should see the terminal return to the normal look--
+3. Push Your changes!! Here's how if you forgot:
+	a. git add home/templates/index.html
+	b. git commit -m "Some message relevant to the changes you made"
+	c. git push origin master
+4. Once thats done, go to your personal github page (ex: http://github.com/shulmanbrent) and go the Weiss Tech House code repository
+5. Click on the green circular looking arroys and submite a Pull Request
+
+Aaaaaand that should do it. Let me know if you need any help or run into probelms
