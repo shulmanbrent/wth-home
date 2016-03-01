@@ -666,13 +666,17 @@ $(document).ready(function()
 		$('.milestone-counter').each(function(){
 			dataperc = $(this).attr('data-perc'),
 			$(this).find('.milestone-count').delay(6000).countTo({
-            from: 0,
-            to: dataperc,
-            speed: 2000,
-            refreshInterval: 100
-        });
-     });
- });	
+	            from: 0,
+	            to: 10,
+	            speed: 2000,
+	            refreshInterval: 100
+        	});
+
+			if $(this).find('.milestone-count').text().length > 4 {
+				$(this).find('.milestone-count').text("NOPE");
+			} 
+     	});
+ 	});	
  
  
     //img overlays
