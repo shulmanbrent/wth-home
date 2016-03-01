@@ -10,6 +10,8 @@ Some tips to get started in case you forgot:
 
 4. Run the following command to boot up the Docker environment/container "./2-run.sh"
 
+	—- Sometimes there is an error that will say the port is already in use. If this is the case, run the command “docker ps” and you will see a docker process number, like 383272. Then run the command “docker kill <process number>”. This should fix the problem
+
 5. Your terminal should not say "root@12345678: " or something like that
 
 6. Type "cd /data" to move in to the folder containing all the website code
