@@ -152,7 +152,7 @@ class Banner(models.Model):
     name = models.CharField(max_length=50)
     status = models.BooleanField()
     content = models.CharField(max_length=500)
-    link = models.CharField(max_length=500)
+    link = models.CharField(max_length=500, default=None, blank=True, null=True)
 
 
     class Meta(object):
