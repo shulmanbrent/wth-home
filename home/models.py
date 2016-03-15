@@ -147,3 +147,19 @@ class Users(models.Model):
     class Meta:
         managed = False
         db_table = 'users'
+
+class Banner(models.Model):
+    on = models.BooleanField()
+
+    class Meta(object):
+        managed = False
+        db_table = 'banner'
+  
+
+class test(models.Model):
+    on = models.BooleanField()
+
+    class Meta(object):
+        managed = False
+        db_table = 'test'
+
