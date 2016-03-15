@@ -149,12 +149,17 @@ class Users(models.Model):
         db_table = 'users'
 
 class Banner(models.Model):
-    id = models.IntegerField(primary_key=True)
+    name = models.CharField(max_length=50)
     status = models.BooleanField()
-    content = models.CharField(max_length=50)
+    content = models.CharField(max_length=500)
+    link = models.CharField(max_length=500)
+
 
     class Meta(object):
         managed = True
         db_table = 'banners'
         app_label = 'home'
+
+    def __str__(self):
+        return self.name
   
