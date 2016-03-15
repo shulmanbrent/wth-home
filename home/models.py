@@ -149,17 +149,12 @@ class Users(models.Model):
         db_table = 'users'
 
 class Banner(models.Model):
-    on = models.BooleanField()
+    id = models.IntegerField(primary_key=True)
+    status = models.BooleanField()
+    content = models.CharField(max_length=50)
 
     class Meta(object):
-        managed = False
-        db_table = 'banner'
+        managed = True
+        db_table = 'banners'
+        app_label = 'home'
   
-
-class test(models.Model):
-    on = models.BooleanField()
-
-    class Meta(object):
-        managed = False
-        db_table = 'test'
-
