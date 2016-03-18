@@ -207,9 +207,9 @@ class TeamMember(models.Model):
     def get_image_path(instance, filename):
         return os.path.join('team_member', filename)
 
-    name = models.CharField(max_length=50)
-    role = models.CharField(max_length=50, blank=True)
-    bio = models.CharField(max_length=500, blank=True)
+    name = models.CharField(max_length=100)
+    role = models.CharField(max_length=100, blank=True)
+    bio = models.CharField(max_length=2000, blank=True)
     image = models.ImageField(upload_to=get_image_path)
 
 
