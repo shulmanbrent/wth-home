@@ -29,6 +29,16 @@
                           <li>{{ committee.text_2 }}</li>
                           <li>{{ committee.text_3 }}</li>
                          </ul>
+
+                      {% if committee.current_info %}
+                        <h6 style="
+                            margin-top: 15px;
+                            color: red;
+                            font-style: italic;
+                        ">Current News</h6>
+
+                        <p>{{ committee.current_info }}</p>
+                      {% endif %}
               </div> <!-- END service-box -->                                   
             </div> <!-- END ONETHIRD COLUMN --> 
             <!-- END COMMITTEE -->
