@@ -31,13 +31,18 @@
                          </ul>
 
                       {% if committee.current_info %}
-                        <h6 style="
-                            margin-top: 15px;
-                            color: red;
-                            font-style: italic;
-                        ">Current News</h6>
-
-                        <p>{{ committee.current_info }}</p>
+                          <h6 style="
+                              margin-top: 15px;
+                              color: red;
+                              font-style: italic;
+                          ">Current News</h6>
+                        {% if committee.current_info_link %}
+                        <a style="color: #4390D4;" href="{{ committee.current_info_link }}">
+                          <h6 style="text-transform: none;">{{ committee.current_info }}</h6>
+                        </a>
+                        {% else %}
+                           <h6 style="text-transform: none;">{{ committee.current_info }}</h6>
+                        {% endif %}
                       {% endif %}
               </div> <!-- END service-box -->                                   
             </div> <!-- END ONETHIRD COLUMN --> 
